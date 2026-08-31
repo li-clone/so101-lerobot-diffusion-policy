@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:system-ui,sans-serif;fill:#111827;font-size:13px}.grid{stroke:#e5e7eb}.axis{stroke:#111827;stroke-width:1.5}</style>
+<line class="grid" x1="80" y1="450.0" x2="870" y2="450.0"/>
+<text x="70" y="454.0" text-anchor="end">0.025</text>
+<line class="grid" x1="80" y1="367.0" x2="870" y2="367.0"/>
+<text x="70" y="371.0" text-anchor="end">0.049</text>
+<line class="grid" x1="80" y1="284.0" x2="870" y2="284.0"/>
+<text x="70" y="288.0" text-anchor="end">0.072</text>
+<line class="grid" x1="80" y1="201.0" x2="870" y2="201.0"/>
+<text x="70" y="205.0" text-anchor="end">0.095</text>
+<line class="grid" x1="80" y1="118.0" x2="870" y2="118.0"/>
+<text x="70" y="122.0" text-anchor="end">0.118</text>
+<line class="grid" x1="80" y1="35.0" x2="870" y2="35.0"/>
+<text x="70" y="39.0" text-anchor="end">0.141</text>
+<line class="grid" x1="225.1" y1="35" x2="225.1" y2="450"/>
+<text x="225.1" y="474" text-anchor="middle">10k</text>
+<line class="grid" x1="386.3" y1="35" x2="386.3" y2="450"/>
+<text x="386.3" y="474" text-anchor="middle">20k</text>
+<line class="grid" x1="547.6" y1="35" x2="547.6" y2="450"/>
+<text x="547.6" y="474" text-anchor="middle">30k</text>
+<line class="grid" x1="708.8" y1="35" x2="708.8" y2="450"/>
+<text x="708.8" y="474" text-anchor="middle">40k</text>
+<line class="grid" x1="870.0" y1="35" x2="870.0" y2="450"/>
+<text x="870.0" y="474" text-anchor="middle">50k</text>
+<line class="axis" x1="80" y1="35" x2="80" y2="450"/>
+<line class="axis" x1="80" y1="450" x2="870" y2="450"/>
+<text x="450.0" y="502" text-anchor="middle">training step</text>
+<text transform="translate(20 260.0) rotate(-90)" text-anchor="middle">eval loss</text>
+<polyline points="80.0,399.4 96.1,434.6 112.2,443.5 128.4,442.8 144.5,443.2 160.6,438.2 176.7,443.9 192.9,450.0 209.0,442.1 225.1,429.2 241.2,431.0 257.3,427.8 273.5,426.3 289.6,404.8 305.7,421.3 321.8,418.1 338.0,401.9 354.1,410.2 370.2,395.1 386.3,378.6 402.4,380.4 418.6,377.9 434.7,381.5 450.8,363.2 466.9,344.5 483.1,329.8 499.2,330.9 515.3,298.6 531.4,299.0 547.6,321.6 563.7,287.5 579.8,264.2 595.9,262.8 612.0,253.8 628.2,247.7 644.3,201.8 660.4,209.7 676.5,159.5 692.7,138.7 708.8,156.6 724.9,141.9 741.0,114.6 757.1,87.0 773.3,110.3 789.4,91.0 805.5,35.0 821.6,51.9 837.8,52.6 853.9,72.7 870.0,39.7" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+<circle cx="192.9" cy="450.0" r="5" fill="#dc2626"/>
+<text x="202.9" y="441.0">best: 8k / 0.0255</text>
+</svg>

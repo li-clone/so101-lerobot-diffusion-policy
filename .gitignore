@@ -1,0 +1,58 @@
+# Local hardware and calibration
+configs/hardware_ports.local.yaml
+hardware_ports.local.yaml
+calibration/
+.cache/
+
+# Secrets and environments
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+.venv/
+venv/
+env/
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.DS_Store
+*~
+*.swp
+
+# Private datasets, models, logs, and media
+/data/
+/datasets/
+/outputs/
+/checkpoints/
+checkpoint*/
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.log
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+wandb/
+runs/
+tensorboard/
+
+# Build and temporary files
+build/
+dist/
+*.egg-info/
+*.tmp
+*.temp
+tmp/
+core
+core.*

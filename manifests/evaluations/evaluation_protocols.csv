@@ -1,0 +1,3 @@
+evaluation_id,policy_checkpoint,n_action_steps,num_inference_steps,fps,trials,successes,protocol
+diffusion_5k_n10_compare_eval_15,diffusion_v1_005000,32,10,20,15,15,5 near + 5 medium + 5 far
+act_v2_n50_balanced_eval_15,act_v2_030000,50,,20,15,13,5 near + 5 medium + 5 far

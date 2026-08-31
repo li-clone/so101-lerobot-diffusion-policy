@@ -1,0 +1,6 @@
+follower_port: /dev/serial/by-id/<FOLLOWER_SERIAL_DEVICE>
+leader_port: /dev/serial/by-id/<LEADER_SERIAL_DEVICE>
+handeye_camera: /dev/v4l/by-path/<HANDEYE_VIDEO_INDEX0>
+environment_camera: /dev/v4l/by-id/<ENVIRONMENT_VIDEO_INDEX0>
+robot_id: so101_follower_main
+teleop_id: so101_leader_main

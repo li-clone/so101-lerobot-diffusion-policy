@@ -1,0 +1,16 @@
+episode,distance_group,success,grasp_attempts,recovered_after_miss,notes
+0,near,true,2,true,second grasp succeeded
+1,near,true,1,false,first grasp succeeded
+2,near,true,2,true,second grasp succeeded
+3,near,true,1,false,first grasp succeeded
+4,near,true,1,false,first grasp succeeded
+5,medium,true,1,false,first grasp succeeded
+6,medium,true,1,false,first grasp succeeded
+7,medium,true,1,false,first grasp succeeded
+8,medium,true,1,false,first grasp succeeded
+9,medium,true,1,false,first grasp succeeded
+10,far,true,1,false,first grasp succeeded
+11,far,true,3,true,third grasp succeeded
+12,far,true,1,false,first grasp succeeded
+13,far,true,1,false,first grasp succeeded
+14,far,true,1,false,first grasp succeeded

@@ -1,0 +1,3 @@
+policy,checkpoint,n_action_steps,num_inference_steps,near_successes,near_trials,medium_successes,medium_trials,far_successes,far_trials,total_successes,total_trials,success_rate
+ACT v2,030000,50,,4,5,5,5,4,5,13,15,0.8667
+Diffusion v1,005000,32,10,5,5,5,5,5,5,15,15,1.0000

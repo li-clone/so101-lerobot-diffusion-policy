@@ -1,0 +1,3 @@
+artifact_id,purpose,episodes,frames,fps,resolution,camera_keys,distance_distribution,storage
+so101_pick_place_compare_v1_70,Diffusion training,70,21016,20,640x480,handeye|environment,near:24|medium:23|far:23,private
+rollout_diffusion_5k_n10_compare_eval_15,Diffusion 5k hardware evaluation,15,5171,20,640x480,handeye|environment,near:5|medium:5|far:5,private

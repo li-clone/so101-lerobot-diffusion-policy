@@ -1,0 +1,14 @@
+datasets:
+  so101_pick_place_compare_v1_70:
+    visibility: private
+    public_manifest: manifests/datasets/so101_pick_place_compare_v1_70.sha256
+  rollout_diffusion_5k_n10_compare_eval_15:
+    visibility: private
+    public_manifest: manifests/datasets/rollout_diffusion_5k_n10_compare_eval_15.sha256
+models:
+  diffusion_v1_005000:
+    visibility: private
+    role: official hardware evaluation
+  diffusion_v1_010000:
+    visibility: private
+    role: retained candidate

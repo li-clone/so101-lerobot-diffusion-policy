@@ -1,0 +1,55 @@
+experiment_id: diffusion_so101_pick_place_compare_v1_70_v1_50k
+codebase:
+  lerobot_version: 0.6.1
+  lerobot_commit: 7e241bd630a3719a56157a497ce5d08f244784f1
+dataset:
+  repo_id: local/so101_pick_place_compare_v1_70
+  episodes: 70
+  frames: 21016
+  fps: 20
+  cameras: [handeye, environment]
+  distance_distribution: {near: 24, medium: 23, far: 23}
+training:
+  policy: diffusion
+  steps: 50000
+  batch_size: 16
+  seed: 1000
+  eval_split: 0.1
+  eval_steps: 1000
+  save_freq: 5000
+  num_workers: 4
+  use_amp: false
+  optimizer_lr: 0.0001
+  optimizer_betas: [0.95, 0.999]
+  optimizer_weight_decay: 0.000001
+  scheduler: cosine
+  warmup_steps: 500
+policy:
+  n_obs_steps: 2
+  horizon: 64
+  n_action_steps: 32
+  vision_backbone: resnet18
+  separate_encoder_per_camera: true
+  noise_scheduler: DDPM
+  num_train_timesteps: 100
+  trainable_parameters: 277819846
+selection:
+  overall_best_step: 8000
+  overall_best_eval_loss: 0.0255
+  best_saved_checkpoint: 5000
+  best_saved_eval_loss: 0.0274
+  retained_checkpoints: [5000, 10000]
+deployment:
+  checkpoint: 5000
+  n_action_steps: 32
+  num_inference_steps: 10
+  fps: 20
+  inference_backend: sync
+evaluation:
+  dataset_id: local/rollout_diffusion_5k_n10_compare_eval_15
+  trials: 15
+  successes: 15
+  groups:
+    near: {successes: 5, trials: 5}
+    medium: {successes: 5, trials: 5}
+    far: {successes: 5, trials: 5}
