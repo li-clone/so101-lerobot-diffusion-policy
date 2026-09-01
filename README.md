@@ -2,6 +2,8 @@
 
 这个仓库完整记录一套 SO-101 Diffusion Policy 实验闭环：硬件检查、双摄像头采集、服务器训练、checkpoint 选择、推理加速、实机评测和失败恢复分析。
 
+阶段 0～8 的配套理论学习笔记已统一收录在 [理论学习笔记](理论学习笔记/README.md) 中。
+
 任务描述：`Pick up the yellow cable bundle and place it in the black target area.`
 
 ## 四个学习项目
