@@ -4,7 +4,15 @@
 
 任务描述：`Pick up the yellow cable bundle and place it in the black target area.`
 
-对应的 ACT 项目见 [so101-lerobot-project](https://github.com/li-clone/so101-lerobot-project)。
+## 三项目学习导航
+
+这三个独立仓库依次记录同一套 SO-101 × LeRobot 学习演进：
+
+1. [ACT](https://github.com/li-clone/so101-lerobot-project)：Transformer Action Chunking，建立单指令双视角基线。
+2. **Diffusion Policy（本仓库）**：迭代去噪动作生成与闭环恢复。
+3. [SmolVLA](https://github.com/li-clone/so101-lerobot-smolvla)：语言条件、黑白双目标与布局互换。
+
+三者的数据、任务、评测协议和 loss 定义不同；导航体现学习关系，不构成算法排行榜。
 
 ## 结果摘要
 
